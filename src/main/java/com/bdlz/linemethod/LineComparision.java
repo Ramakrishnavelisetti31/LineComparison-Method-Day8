@@ -36,6 +36,7 @@ public class LineComparision {
         int p2 = s.nextInt();
         System.out.println("Enter q2 co-ordinate of  line: ");
         int q2 = s.nextInt();
+        s.close();
         length_of_Secondline = Math.sqrt((p2-p1)*(p2-p1)+(q2-q1)*(q2-q1));
         System.out.println("length of Line2: " + length_of_Secondline);
         return length_of_Secondline;
